@@ -1,0 +1,30 @@
+ion-content {
+    --ion-background-color: var(--ion-color-dark-tint);
+}
+
+ion-searchbar {
+    --ion-background-color: #fff;
+}
+
+ion-avatar img {
+    border-radius: 0;
+}
+
+ion-card {
+    border-radius: 0px;
+    --ion-item-background: #fff;
+}
+
+ion-card-title {
+    text-align: center;
+}
+
+ion-card-content {
+    padding: 10px;
+}
+
+.spinner-container {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}

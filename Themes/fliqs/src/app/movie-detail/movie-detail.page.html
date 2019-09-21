@@ -1,0 +1,106 @@
+<ion-header class="movie-detail-header">
+  <ion-toolbar color="dark">
+	<ion-buttons slot="start">
+			<ion-back-button defaultHref="/home"></ion-back-button>
+	</ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button (click)="dataService.toggleFavouriteMovie(movie)">
+          <ion-icon slot="icon-only" *ngIf="!movie?.favourite" name="heart-empty"></ion-icon>
+          <ion-icon slot="icon-only" *ngIf="movie?.favourite" name="heart"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+	
+	<ion-grid>
+		<ion-row>
+			<ion-col class="trailer">
+				<video #trailer (click)="togglePlay()" [src]="movie?.trailer" [poster]="movie?.videoCover"></video>
+				<ion-icon (click)="togglePlay()" [hidden]="trailerPlaying" name="play"></ion-icon>
+			</ion-col>
+		</ion-row>
+
+		<div class="movie-info">
+
+			<ion-row>
+				<ion-col>
+					<h3>{{movie?.title}}</h3>
+					<ion-badge 
+						[class.general] = "movie?.classification == 'G'"
+						[class.parental-guidance] = "movie?.classification == 'PG'"
+						[class.mature] = "movie?.classification == 'M'">
+						{{movie?.classification}}
+					</ion-badge>
+				</ion-col>
+			</ion-row>
+
+			<ion-row>
+				<ion-col class="rating">
+					<ion-icon *ngIf="movie?.rating > 0" name="star"></ion-icon>
+					<ion-icon *ngIf="movie?.rating > 1" name="star"></ion-icon>
+					<ion-icon *ngIf="movie?.rating > 2" name="star"></ion-icon>
+					<ion-icon *ngIf="movie?.rating > 3" name="star"></ion-icon>
+					<ion-icon *ngIf="movie?.rating > 4" name="star"></ion-icon>
+				</ion-col>
+			</ion-row>
+
+			<ion-row>
+				<ion-col>
+					<p>{{movie?.description}}</p>
+				</ion-col>
+			</ion-row>
+
+			<ion-row>
+				<ion-col>
+					<div class="play-now">
+						<ion-button color="dark"><ion-icon name="pricetags"></ion-icon>BUY TICKETS</ion-button>
+					</div>
+				</ion-col>
+			</ion-row>
+		</div>
+
+		<div class="movie-details">
+
+			<ion-row>
+				<ion-col size="4">
+					<p><strong>RELEASE DATE:</strong></p>
+				</ion-col>
+				<ion-col>
+					<p>{{movie?.releaseDate}}</p>
+				</ion-col>
+			</ion-row>
+
+			<ion-row>
+				<ion-col size="4">
+					<p><strong>RUNNING TIME:</strong></p>
+				</ion-col>
+				<ion-col>
+					<p>{{movie?.runningTime}}</p>
+				</ion-col>
+			</ion-row>
+
+			<ion-row>
+				<ion-col size="4">
+					<p><strong>DIRECTOR:</strong></p>
+				</ion-col>
+				<ion-col>
+					<p>{{movie?.directors}}</p>
+				</ion-col>
+			</ion-row>
+
+			<ion-row>
+				<ion-col size="4">
+					<p><strong>CAST:</strong></p>
+				</ion-col>
+				<ion-col>
+					<p>{{movie?.cast}}</p>
+				</ion-col>
+			</ion-row>
+
+		</div>
+
+	</ion-grid>
+
+</ion-content>

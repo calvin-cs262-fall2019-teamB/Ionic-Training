@@ -1,0 +1,35 @@
+<ion-content>
+
+	<ion-slides pager="true" loop="true">
+		<ion-slide>
+		  <img src="assets/images/pizza.jpeg"/>
+		</ion-slide>
+		<ion-slide>
+		  <img src="assets/images/cake.jpeg"/>
+		</ion-slide>
+		<ion-slide>
+		  <img src="assets/images/donuts.jpeg"/>
+		</ion-slide>
+		<ion-slide>
+		  <img src="assets/images/veg.jpeg"/>
+		</ion-slide>
+	</ion-slides>
+
+	<ion-toolbar color="dark">
+		<ion-title>Browse</ion-title>
+	</ion-toolbar>
+
+  <form [formGroup]="searchForm">
+	  <ion-searchbar (ionClear)="dataService.clearFilter()" formControlName="searchControl" placeholder="search categories..."></ion-searchbar>
+  </form>
+  
+	<div *ngIf="searching" class="spinner-container">
+		<ion-spinner></ion-spinner>
+	</div>
+
+	<ion-card tappable [routerLink]="'/category/' + category.id" routerDirection="forward" *ngFor="let category of categories">
+	  <img [src]="category.image" />
+	  <div class="card-title">{{category.title}}</div>
+	</ion-card>
+
+</ion-content>

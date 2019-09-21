@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+    	<img src="assets/images/fliqs.png" class="logo" />
+	  </ion-title>
+    <ion-buttons slot="end">
+      <ion-button color="light" routerLink="/watch-list" routerDirection="forward">
+        <ion-icon slot="icon-only" color="light" name="heart"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <form [formGroup]="searchForm">
+    <ion-searchbar (ionClear)="clearSearch()" formControlName="searchControl" placeholder="search movies..."></ion-searchbar>
+  </form>
+
+	<div *ngIf="searching" class="spinner-container">
+		<ion-spinner></ion-spinner>
+	</div>
+
+	<div *ngFor="let category of categories">
+
+		  <ion-button [routerLink]="'/view-category/' + category.id" routerDirection="forward">{{category.title}}<ion-icon name="arrow-dropright"></ion-icon></ion-button>
+
+			<ion-grid>
+				<div class="movie-scroll">
+					<ion-row nowrap>
+				      <ion-col *ngFor="let movie of category.items" size="6">
+                  <ion-card>
+                    <ion-button (click)="dataService.toggleFavouriteMovie(movie)">
+                      <ion-icon slot="icon-only" *ngIf="!movie.favourite" name="heart-empty"></ion-icon>
+                      <ion-icon slot="icon-only" *ngIf="movie.favourite" name="heart"></ion-icon>
+                    </ion-button>
+                    <img tappable [routerLink]="'/movie-detail/' + movie.id" routerDirection="forward" [src]="movie.image"/>
+                    <ion-card-content>
+                      <ion-card-title>{{movie.title}}</ion-card-title>
+                    </ion-card-content>
+                  </ion-card>
+				      </ion-col> 
+				  </ion-row>
+			  </div>
+			</ion-grid>
+
+  </div>
+  
+</ion-content>

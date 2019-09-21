@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title>Recipes</ion-title>
+    <ion-buttons slot="start">
+			<ion-back-button defaultHref="/home"></ion-back-button>
+	  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <form [formGroup]="searchForm">
+	  <ion-searchbar (ionInput)="onSearchInput()" (ionClear)="clearFilter()" formControlName="searchControl" placeholder="search categories..."></ion-searchbar>
+  </form>
+
+	<div *ngIf="searching" class="spinner-container">
+		<ion-spinner></ion-spinner>
+	</div>
+
+	<ion-card *ngFor="let recipe of recipes">
+	  <img [src]="recipe.image"/>
+	  <ion-card-content>
+	    <ion-card-title>{{recipe.title}}</ion-card-title>
+	    <p>{{recipe.description}}</p>
+	    <ion-button expand="full" color="primary" [routerLink]="'/recipe/' + recipe.id" routerDirection="forward">View Recipe</ion-button>
+	  </ion-card-content>
+	</ion-card>
+
+</ion-content>

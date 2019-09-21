@@ -1,0 +1,27 @@
+STANDARD LICENSE
+
+The Standard License grants you an ongoing, non-exclusive, worldwide license to make use of the resource you have purchased.
+
+You are licensed to use the resource to create one End Product for yourself, or for a single client.
+
+An End Product is a customised implementation of the purchased resource, that requires an application of skill and effort.
+
+ALLOWED USING THIS LICENSE:
+
+You may use the resource to create a single End Product, to be used either non-commercially or commercially.
+
+You may create one End Product for a client, and you may sell the End Product to your client. Upon selling the End Product to the client, this license will be transferred to the client.
+
+You may remix, transform, and build upon the material in any way you see fit. The resulting work is subject to the terms of this license.
+
+NOT ALLOWED WITH THIS LICENSE:
+
+You may not sell the End Product to multiple clients.
+
+You may not create the End Product for yourself and for one or more clients.
+
+You may not re-distribute the resource as stock, in a tool or template, or with source files, even if you modify the resource.
+
+You may not make the resource available without changes, or with only superficial changes.
+
+If this license is breached, it may be terminated at any time.

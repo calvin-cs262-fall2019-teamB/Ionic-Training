@@ -1,0 +1,264 @@
+{
+	"categories": [
+
+		{
+
+			"id": "breakfast",
+			"title": "Breakfast",
+			"image": "assets/images/eggs.jpeg",
+
+			"recipes": [
+				{
+					"id": "eggs-on-toast",
+					"title": "Eggs on Toast",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/eggs.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "pancakes",
+					"title": "Pancakes",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/pancakes.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "waffles",
+					"title": "Waffles",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/waffles.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "fruit-platter",
+					"title": "Fruit Platter",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/fruit.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				}
+			]
+
+		},
+
+		{
+
+			"id": "lunch",
+			"title": "Lunch",
+			"image": "assets/images/nachos.jpeg",
+
+			"recipes": [
+				{
+					"id": "sandwich",
+					"title": "Sandwich",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/sandwich.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "nachos",
+					"title": "Nachos",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/nachos.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "burgers",
+					"title": "Burgers",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/burger.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "fries",
+					"title": "Fries",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/fries.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				}
+			]			
+
+		},
+
+		{
+			"id": "dinner",
+			"title": "Dinner",
+			"image": "assets/images/stake.jpeg",
+
+			"recipes": [
+				{
+					"id": "burgers",
+					"title": "Burgers",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/burger.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "steak",
+					"title": "Steak",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/stake.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "pizza",
+					"title": "Pizza",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/pizza.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "chicken-salad",
+					"title": "Chicken Salad",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/main.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				}
+			]
+		},
+
+
+		{
+			"id": "dessert",
+			"title": "Dessert",
+			"image": "assets/images/cupcake.jpeg",
+
+			"recipes": [
+				{
+					"id": "macarons",
+					"title": "Macarons",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/macarons.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "iceblock",
+					"title": "Iceblock",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/iceblock.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "custard-pudding",
+					"title": "Custard Pudding",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/custard.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "trifle",
+					"title": "Trifle",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/dessert.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				}
+			]
+		},
+
+		{
+			"id": "snacks",
+			"title": "Snacks",
+			"image": "assets/images/cookie.jpeg",
+
+			"recipes": [
+				{
+					"id": "chocolate",
+					"title": "Chocolate",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/chocolate.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "cookies",
+					"title": "Cookies",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/cookie.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				}
+			]
+		},
+
+		{
+			"id": "healthy",
+			"title": "Healthy",
+			"image": "assets/images/strawberries.jpeg",
+
+			"recipes": [
+				{
+					"id": "stir-fry",
+					"title": "Stir-fry",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/healthy.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "pancakes",
+					"title": "Pancakes",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/pancakeshealthy.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "chicken",
+					"title": "Chicken",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/main.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				}
+			]
+		},
+
+		{
+			"id": "cakes",
+			"title": "Cakes",
+			"image": "assets/images/chocolatecake.jpeg",
+
+			"recipes": [
+				{
+					"id": "birthday-cake",
+					"title": "Birthday Cake",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/cake.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "kids-cake",
+					"title": "Kids Cake",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/sprinklecake.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				}
+			]
+		},
+
+		{
+			"id": "drinks",
+			"title": "Drinks",
+			"image": "assets/images/red.jpeg",
+
+			"recipes": [
+				{
+					"id": "iced-tea",
+					"title": "Iced Tea",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/icetea.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "green-smoothie",
+					"title": "Green Smoothie",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/greensmoothie.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				},
+				{
+					"id": "martini",
+					"title": "Martini",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"image": "assets/images/martini.jpeg",
+					"details": "<h2>Ingredients</h2> <ul> <li>Milk</li> <li>Bread</li> <li>Cinnamon</li> <li>Water</li> <li>Lemon</li> <li>Flour</li> <li>Sugar</li> <li>Chocolate</li> <li>Nuts</li> </ul> <h2>Method</h2> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+				}
+			]
+		}
+
+	]
+}

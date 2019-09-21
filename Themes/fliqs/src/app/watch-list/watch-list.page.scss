@@ -1,0 +1,52 @@
+ion-content {
+    background-color: var(--ion-color-primary);
+}
+
+button, ion-item-sliding, ion-item-options {
+    background-color: var(--ion-color-primary);
+    border: none !important;
+}
+
+ion-avatar {
+    height: 90px;
+    width: 75px;
+    
+    img {
+        border-radius: 0;
+        width: 100%;
+        height: auto;
+        max-width: none;
+        max-height: none;
+    }
+}
+
+ion-item-sliding {
+
+    .activated {
+        background-color: inherit;
+    }
+
+    p {
+        max-height: 70px;
+    }
+}
+
+ion-label {
+
+    h2 {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    p {
+        white-space: normal;
+        color: #fff;
+    }
+}
+
+.watch-list-header {
+
+	button {
+		color: #fff;
+	}
+}

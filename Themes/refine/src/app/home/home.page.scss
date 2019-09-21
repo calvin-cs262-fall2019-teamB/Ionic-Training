@@ -1,0 +1,41 @@
+ion-content {
+    --ion-background-color: var(--ion-color-dark-tint);
+}
+
+ion-searchbar {
+    --ion-background-color: #fff;
+}
+
+ion-slides {
+    background-color: var(--ion-color-dark);
+    height: 200px;
+}
+
+ion-slides img {
+    width: 100%;
+}
+
+ion-card {
+    position: relative;
+    float: left;
+    text-align: center;
+    margin: 0;
+    width: 50%;
+    border-radius: 0;
+}
+
+.card-title {
+    position: absolute;
+    top: 40%;
+    font-size: 1.0em;
+    text-shadow: 1px 1px #343434;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+}
+
+.spinner-container {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}

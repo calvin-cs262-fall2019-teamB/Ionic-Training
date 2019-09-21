@@ -1,0 +1,31 @@
+<ion-header class="category-header">
+  <ion-toolbar color="primary">
+		<ion-title>{{category?.title}}</ion-title>
+		<ion-buttons slot="start">
+				<ion-back-button defaultHref="/home"></ion-back-button>
+		</ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <form [formGroup]="searchForm">
+    <ion-searchbar (ionInput)="onSearchInput()" (ionClear)="clearFilter()" formControlName="searchControl" placeholder="search movies..."></ion-searchbar>
+  </form>
+
+	<div *ngIf="searching" class="spinner-container">
+		<ion-spinner></ion-spinner>
+	</div>
+
+	<ion-card *ngFor="let movie of movies">
+		<ion-button (click)="dataService.toggleFavouriteMovie(movie)">
+		  	<ion-icon slot="icon-only" *ngIf="!movie.favourite" name="heart-empty"></ion-icon>
+		  	<ion-icon slot="icon-only" *ngIf="movie.favourite" name="heart"></ion-icon>
+		</ion-button>
+	    <img [routerLink]="'/movie-detail/' + movie.id" routerDirection="forward" [src]="movie.image" />
+	    <ion-card-content>
+	    	<ion-card-title>{{movie.title}}</ion-card-title>
+	  </ion-card-content>
+	</ion-card>	
+
+</ion-content>

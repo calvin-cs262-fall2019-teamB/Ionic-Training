@@ -1,0 +1,299 @@
+{
+	"categories": [
+
+		{
+			"id": "comedy",
+			"title": "Comedy",
+
+			"items": [
+				{
+					"id": "chairs",
+					"title": "Chairs",
+					"image": "assets/images/chairsportrait.jpeg",
+					"videoCover": "assets/images/chairs.jpeg",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"trailer": "assets/video/Fliqs.mp4",
+					"classification": "PG",
+					"releaseDate": "12/08/2016",
+					"runningTime": "100 minutes",
+					"directors": "John Smith",
+					"cast": "John Smith, Jane Smith",
+					"rating": 4,
+					"sessionTimes": ["09:00", "12:00", "15:30", "17:30"],
+					"favourite": false
+				},
+				{
+					"id": "men",
+					"title": "Men",
+					"image": "assets/images/manportrait.jpeg",
+					"videoCover": "assets/images/man.jpeg",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"trailer": "assets/video/Fliqs.mp4",
+					"classification": "M",
+					"releaseDate": "12/08/2016",
+					"runningTime": "100 minutes",
+					"directors": "John Smith",
+					"cast": "John Smith, Jane Smith",
+					"rating": 3,
+					"sessionTimes": ["07:00", "10:00", "12:30", "14:30"],
+					"favourite": false
+				},
+				{
+					"id": "chalk",
+					"title": "Chalk",
+					"image": "assets/images/chalkportrait.jpeg",
+					"videoCover": "assets/images/chalk.jpeg",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"trailer": "assets/video/Fliqs.mp4",
+					"classification": "G",
+					"releaseDate": "12/08/2016",
+					"runningTime": "100 minutes",
+					"directors": "John Smith",
+					"cast": "John Smith, Jane Smith",
+					"rating": 5,
+					"sessionTimes": ["09:00", "12:00", "15:30", "17:30"],
+					"favourite": false
+				},
+				{
+					"id": "mountains",
+					"title": "Mountains",
+					"image": "assets/images/mountainsportrait.jpeg",
+					"videoCover": "assets/images/mountains.jpeg",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"trailer": "assets/video/Fliqs.mp4",
+					"classification": "PG",
+					"releaseDate": "12/08/2016",
+					"runningTime": "100 minutes",
+					"directors": "John Smith",
+					"cast": "John Smith, Jane Smith",
+					"rating": 4,
+					"sessionTimes": ["07:00", "10:00", "12:30", "14:30"],
+					"favourite": false
+				}
+			]			
+
+		},
+
+		{
+			"id": "drama",
+			"title": "Drama",
+
+			"items": [
+				{
+					"id": "new-york",
+					"title": "New York",
+					"image": "assets/images/newyorkportrait.jpeg",
+					"videoCover": "assets/images/newyork.jpeg",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"trailer": "assets/video/Fliqs.mp4",
+					"classification": "PG",
+					"releaseDate": "12/08/2016",
+					"runningTime": "100 minutes",
+					"directors": "John Smith",
+					"cast": "John Smith, Jane Smith",
+					"rating": 3,
+					"sessionTimes": ["07:00", "10:00", "12:30", "14:30"],
+					"favourite": false
+				},
+				{
+					"id": "river",
+					"title": "River",
+					"image": "assets/images/riverportrait.jpeg",
+					"videoCover": "assets/images/river.jpeg",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"trailer": "assets/video/Fliqs.mp4",
+					"classification": "PG",
+					"releaseDate": "12/08/2016",
+					"runningTime": "100 minutes",
+					"directors": "John Smith",
+					"cast": "John Smith, Jane Smith",
+					"rating": 3,
+					"sessionTimes": ["09:00", "12:00", "15:30", "17:30"],
+					"favourite": false
+				},
+				{
+					"id": "water",
+					"title": "Water",
+					"image": "assets/images/waterportrait.jpeg",
+					"videoCover": "assets/images/water.jpeg",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"trailer": "assets/video/Fliqs.mp4",
+					"classification": "M",
+					"releaseDate": "12/08/2016",
+					"runningTime": "100 minutes",
+					"directors": "John Smith",
+					"cast": "John Smith, Jane Smith",
+					"rating": 2,
+					"sessionTimes": ["07:00", "10:00", "12:30", "14:30"],
+					"favourite": false
+				},
+				{
+					"id": "deep-blue",
+					"title": "Deep Blue",
+					"image": "assets/images/blueportrait.jpeg",
+					"videoCover": "assets/images/blue.jpeg",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"trailer": "assets/video/Fliqs.mp4",
+					"classification": "G",
+					"releaseDate": "12/08/2016",
+					"runningTime": "100 minutes",
+					"directors": "John Smith",
+					"cast": "John Smit Jane Smith",
+					"rating": 4,
+					"sessionTimes": ["09:00", "12:00", "15:30", "17:30"],
+					"favourite": false
+				}
+
+			]			
+
+		},
+
+		{
+
+			"id": "science-fiction",
+			"title": "Science Fiction",
+
+			"items": [
+				{
+					"id": "light",
+					"title": "Light",
+					"image": "assets/images/lightportrait.jpeg",
+					"videoCover": "assets/images/light.jpeg",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"trailer": "assets/video/Fliqs.mp4",
+					"classification": "M",
+					"releaseDate": "12/08/2016",
+					"runningTime": "100 minutes",
+					"directors": "John Smith",
+					"cast": "John Smith, Jane Smith",
+					"rating": 3,
+					"sessionTimes": ["07:00", "10:00", "12:30", "14:30"],
+					"favourite": false
+				},
+				{
+					"id": "space",
+					"title": "Space",
+					"image": "assets/images/spaceportrait.jpeg",
+					"videoCover": "assets/images/space.jpeg",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"trailer": "assets/video/Fliqs.mp4",
+					"classification": "M",
+					"releaseDate": "12/08/2016",
+					"runningTime": "100 minutes",
+					"directors": "John Smith",
+					"cast": "John Smith, Jane Smith",
+					"rating": 4,
+					"sessionTimes": ["09:00", "12:00", "15:30", "17:30"],
+					"favourite": false
+				},
+				{
+					"id": "starry-night",
+					"title": "Starry Night",
+					"image": "assets/images/starsportrait.jpeg",
+					"videoCover": "assets/images/stars.jpeg",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"trailer": "assets/video/Fliqs.mp4",
+					"classification": "G",
+					"releaseDate": "12/08/2016",
+					"runningTime": "100 minutes",
+					"directors": "John Smith",
+					"cast": "John Smith, Jane Smith",
+					"rating": 2,
+					"sessionTimes": ["07:00", "10:00", "12:30", "14:30"],
+					"favourite": false
+				},
+				{
+					"id": "bang",
+					"title": "Bang",
+					"image": "assets/images/fireworksportrait.jpeg",
+					"videoCover": "assets/images/fireworks.jpeg",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"trailer": "assets/video/Fliqs.mp4",
+					"classification": "PG",
+					"releaseDate": "12/08/2016",
+					"runningTime": "100 minutes",
+					"directors": "John Smith",
+					"cast": "John Smit Jane Smith",
+					"rating": 3,
+					"sessionTimes": ["09:00", "12:00", "15:30", "17:30"],
+					"favourite": false
+				}
+			]
+		},
+
+		{
+
+			"id": "adventure",
+			"title": "Adventure",
+
+			"items": [
+				{
+					"id": "hobbit",
+					"title": "Hobbit",
+					"image": "assets/images/hobbitportrait.jpeg",
+					"videoCover": "assets/images/hobbit.jpeg",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"trailer": "assets/video/Fliqs.mp4",
+					"classification": "M",
+					"releaseDate": "12/08/2016",
+					"runningTime": "100 minutes",
+					"directors": "John Smith",
+					"cast": "John Smith, Jane Smith",
+					"rating": 5,
+					"sessionTimes": ["07:00", "10:00", "12:30", "14:30"],
+					"favourite": false
+				},
+				{
+					"id": "beach",
+					"title": "Beach",
+					"image": "assets/images/beachportrait.jpeg",
+					"videoCover": "assets/images/beach.jpeg",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"trailer": "assets/video/Fliqs.mp4",
+					"classification": "M",
+					"releaseDate": "12/08/2016",
+					"runningTime": "100 minutes",
+					"directors": "John Smith",
+					"cast": "John Smith, Jane Smith",
+					"rating": 5,
+					"sessionTimes": ["09:00", "12:00", "15:30", "17:30"],
+					"favourite": false
+				},
+				{
+					"id": "buildings",
+					"title": "Buildings",
+					"image": "assets/images/buildingportrait.jpeg",
+					"videoCover": "assets/images/building.jpeg",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"trailer": "assets/video/Fliqs.mp4",
+					"classification": "PG",
+					"releaseDate": "12/08/2016",
+					"runningTime": "100 minutes",
+					"directors": "John Smith",
+					"cast": "John Smith, Jane Smith",
+					"rating": 3,
+					"sessionTimes": ["07:00", "10:00", "12:30", "14:30"],
+					"favourite": false
+				},
+				{
+					"id": "apartment",
+					"title": "Apartment",
+					"image": "assets/images/apartmentsportrait.jpeg",
+					"videoCover": "assets/images/apartments.jpeg",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+					"trailer": "assets/video/Fliqs.mp4",
+					"classification": "PG",
+					"releaseDate": "12/08/2016",
+					"runningTime": "100 minutes",
+					"directors": "John Smith",
+					"cast": "John Smith, Jane Smith",
+					"rating": 3,
+					"sessionTimes": ["09:00", "12:00", "15:30", "17:30"],
+					"favourite": false
+				}
+			]
+
+		}
+
+	]
+}
